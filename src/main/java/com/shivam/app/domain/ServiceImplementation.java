@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class ServiceIml implements Service {
+public class ServiceImplementation implements Service {
 
     @Autowired
     private TopicRepository topicRepository;
